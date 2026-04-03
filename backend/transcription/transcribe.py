@@ -1,2 +1,7 @@
-def get_transcription():
-    pass
+import whisper
+
+model = whisper.load_model("base")
+
+def get_transcription(clean_wav_path):
+    result = model.transcribe(clean_wav_path)
+    return result["text"]
