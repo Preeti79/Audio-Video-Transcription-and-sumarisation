@@ -1,1 +1,14 @@
 # Add your dependencies here
+flask
+flask-cors
+librosa
+soundfile
+pydub
+noisereduce
+nltk
+sentence-transformers
+scikit-learn
+transformers
+textblob
+openai-whisper
+numpy
