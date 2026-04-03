@@ -1,4 +1,7 @@
+backend/venv/
 venv/
-data/raw_audio/
-data/clean_audio/
+backend/data/
 *.pt
+# 🔹 Python cache files
+__pycache__/
+.venv/
